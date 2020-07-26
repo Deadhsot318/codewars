@@ -1,9 +1,0 @@
-def get_count(input_str):
-    """ count the number of vowles found in a string"""
-    num_vowels = 0
-    tup_vowels = ('a', 'e', 'i', 'o', 'u')
-    for i in tup_vowels:
-        for j in input_str:
-            if i == j:
-                num_vowels += 1
-    return num_vowels
